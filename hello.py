@@ -1,3 +1,4 @@
+"""  
 print("hello, world")
 
 # Improving Your First Python Program
@@ -35,3 +36,11 @@ print(name)
 name = input("What's your name? ")
 print("hello,", end="")
 print(name)
+
+"""
+
+
+name = input("What's your name? ").strip().title()
+
+# Print the output
+print(f"hello, {name}")
